@@ -1,0 +1,5 @@
+import requests
+
+response = requests.get("https://api.github.com/repos/octocat/hello-world")
+
+print(response.status_code)
